@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Alhambra de Granada</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+        <!-- <meta> tags -->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="alhambra, alhambra de granada, alhambra history, alhambra pictures">
+        <meta name="description" content="Welcome to the Alhambra de Granada! Learn a little about the history of one of the most famous tourist spots in Spain.">
+        <meta name="author" content="Mateus DF">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        
+        <!-- External CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+
+        <header class="primary-header">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html"><img class="img-logo" src="images/logo.jpg" alt="Alhambra"></a>
+                    <button class="mobile-nav-toggle" type="button">
+                        <i class="bi bi-list | icon-hamburger"></i>
+                        <i class="bi bi-x | icon-close | display-none"></i>
+                    </button>
+                    <nav class="primary-navigation" id="primary-navigation">
+                        <ul role="list" class="nav-list">
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <section>
+                
+                <picture>
+                    <source media="(max-width: 599px)" class="img-size" srcset="images/cover-mobile.jpg" type="image/jpeg">
+                    <source media="(max-width: 991px)" class="img-size" srcset="images/cover-tablet.jpg" type="image/jpeg">
+                    <img src="images/cover-desktop.jpg" alt="Panoramic view of the Alhambra">
+                </picture>
+
+                <div class="container primary-heading-spacing">
+                    <h1 class="primary-heading | fs-primary-heading">Alhambra de Granada</h1>
+                </div>
+
+            </section>
+
+            <article class="card | container first-card-spacing">
+
+                <picture class="card__img">
+                    <source media="(min-width: 960px)" srcset="images/court-of-the-lions-desktop.jpg">
+                    <img src="images/court-of-the-lions-mobile.jpg" alt="Court of the lions">
+                </picture>
+
+                <div class="card__content | bg-secondary-400">
+
+                    <h2 class="card__title | fs-card-heading">History</h2>
+
+                    <p class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id congue odio. Nam dignissim malesuada massa, vel consequat leo pulvinar at. Morbi eu vehicula mauris, vel rhoncus tortor. Proin quis neque posuere, commodo nisl eget, mollis felis. Donec sodales porta ligula, in placerat arcu egestas at. Phasellus placerat, ligula sed blandit malesuada, purus odio gravida tortor, a suscipit libero purus sit amet ex. Pellentesque placerat lacus eu lacus volutpat, in efficitur neque cursus.
+                    </p>
+
+                    <button class="button" type="button">Read More</button>
+
+                </div>
+
+            </article>
+
+            <article class="card card--row-reverse | container second-card-spacing">
+
+                <picture class="card__img">
+                    <source media="(min-width: 960px)" srcset="images/mosaic-desktop.jpg">
+                    <img src="images/mosaic-mobile.jpg" alt="Decorative mosaic on an Alhambra wall">
+                </picture>
+                
+                <div class="card__content | bg-secondary-500">
+                    
+                    <h2 class="card__title | fs-card-heading">Gallery</h2>
+
+                    <p class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id congue odio. Nam dignissim malesuada massa, vel consequat leo pulvinar at. Morbi eu vehicula mauris, vel rhoncus tortor. Proin quis neque posuere, commodo nisl eget, mollis felis. Donec sodales porta ligula, in placerat arcu egestas at. Phasellus placerat, ligula sed blandit malesuada, purus odio gravida tortor, a suscipit libero purus sit amet ex. Pellentesque placerat lacus eu lacus volutpat, in efficitur neque cursus.
+                    </p>
+
+                    <button class="button" type="button">View More</button>
+
+                </div>
+
+            </article>
+
+        </main>
+
+        <footer class="footer-spacing">
+            
+            <div class="footer-nav-container | bg-primary-400 text-neutral-100">
+                <div class="footer-nav-item">
+                    <h3 class="footer-nav-item__title">Alhambra de Granada</h3>
+
+                    <p class="footer-nav-item__text">This website is a project from Mateus Destefani Fabri’s portfolio. It has no relations with any public institution or company and its content is partially fictional.</p>
+                </div>
+
+                <div class="footer-nav-item">
+                    <h3 class="footer-nav-item__title">Links</h3>
+
+                    <ul class="footer-nav-item__text" role="list">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-nav-item">
+                    <h3 class="footer-nav-item__title">Links</h3>
+                    
+                    <ul class="footer-nav-item__text" role="list">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-primary-400">
+                <div class="container">
+                    <ul class="footer-icons" role="list">
+                        <li><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=en"><i class="bi bi-twitter-x"></i></a></li>
+                        <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="https://www.pinterest.com/"><i class="bi bi-pinterest"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-accent-200">
+                <div class="container">
+                    <p class="footer-copyright">&copy; <span id="currentYear">2023</span> Copyright - Alhambra de Granada. All rights reserved.</p>
+                </div>
+            </div>
+            
+        </footer>
+        
+        <script src="scripts/script.js"></script>
+
+    </body>
+</html>
