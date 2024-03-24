@@ -11,3 +11,13 @@ The design was created by me using Figma.
 It is online and can be accessed at the link [alhambra.free.nf](http://www.alhambra.free.nf)
 
 More information about me on [LinkedIn](https://www.linkedin.com/in/mateus-destefani-fabri-44b205232/).
+
+## Screenshots
+
+### Mobile version
+
+![Mobile version screenshot](screenshots/screenshot-mobile.png)
+
+### Desktop version
+
+![Desktop version screenshot](screenshots/screenshot-desktop.png)
